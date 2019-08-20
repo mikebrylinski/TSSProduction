@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "theseatsniper-dev-20190819160746-authRole",
+			"UnauthRoleArn": "arn:aws:iam::510946475248:role/theseatsniper-dev-20190819160746-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::510946475248:role/theseatsniper-dev-20190819160746-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "theseatsniper-dev-20190819160746-deployment",
+			"UnauthRoleName": "theseatsniper-dev-20190819160746-unauthRole",
+			"StackName": "theseatsniper-dev-20190819160746",
+			"StackId": "arn:aws:cloudformation:us-east-1:510946475248:stack/theseatsniper-dev-20190819160746/039a1d70-c2bd-11e9-8dbb-0a583df6bf38"
+		}
+	},
+	"auth": {
+		"theseatsniper749c5584": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/theseatsniper-dev-20190819160746-deployment/amplify-cfn-templates/auth/theseatsniper749c5584-cloudformation-template.yml",
+				"logicalId": "auththeseatsniper749c5584"
+			},
+			"lastPushTimeStamp": "2019-08-19T20:17:36.424Z",
+			"output": {
+				"AppClientSecret": "8j4tvo50h92l5hmr01nupoajc2vtjge10cugbp5vepjnuslb0j4",
+				"UserPoolId": "us-east-1_nYXtS7nwN",
+				"AppClientIDWeb": "4953fkiotime42d8sm0ovdmaqc",
+				"AppClientID": "3urmt22um0jrfmq1c0h9k1o3u8",
+				"IdentityPoolId": "us-east-1:e0336ebe-ea84-4a9c-8b5f-71e054917603",
+				"IdentityPoolName": "theseatsniper749c5584_identitypool_749c5584__dev",
+				"UserPoolName": "theseatsniper749c5584_userpool_749c5584"
+			},
+			"lastPushDirHash": "iTPvsNxH3C2wFkiwvoXJV4qZ2uI="
+		}
+	},
+	"api": {
+		"theseatsniper": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS",
+				"GraphQLAPIIdOutput": "aam5qnzwe5ao7nysnmlpjou67y",
+				"GraphQLAPIEndpointOutput": "https://wbaf5r2zwrd7ngxxsjc7tbggdi.appsync-api.us-east-1.amazonaws.com/graphql"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/theseatsniper-dev-20190819160746-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apitheseatsniper"
+			},
+			"lastPushTimeStamp": "2019-08-19T20:17:36.424Z",
+			"lastPushDirHash": "dJk2VnL7XY3WlmDZbTBxl6aRvs8="
+		}
+	}
+}

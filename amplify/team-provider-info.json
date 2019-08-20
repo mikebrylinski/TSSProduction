@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "theseatsniper-dev-20190819160746-authRole",
+            "UnauthRoleArn": "arn:aws:iam::510946475248:role/theseatsniper-dev-20190819160746-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::510946475248:role/theseatsniper-dev-20190819160746-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "theseatsniper-dev-20190819160746-deployment",
+            "UnauthRoleName": "theseatsniper-dev-20190819160746-unauthRole",
+            "StackName": "theseatsniper-dev-20190819160746",
+            "StackId": "arn:aws:cloudformation:us-east-1:510946475248:stack/theseatsniper-dev-20190819160746/039a1d70-c2bd-11e9-8dbb-0a583df6bf38"
+        },
+        "categories": {
+            "auth": {
+                "theseatsniper749c5584": {}
+            }
+        }
+    }
+}

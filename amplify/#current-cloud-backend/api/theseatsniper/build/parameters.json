@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "theseatsniper",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "auththeseatsniper749c5584",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "theseatsniper-dev-20190819160746-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/b5b3e8cc7d43f4f50fbad9242b627fc4fd4604ea"
+}
